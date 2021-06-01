@@ -1,0 +1,215 @@
+
+body {
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    
+
+}
+
+.header::after {
+    content: '';
+    height: 90vh;
+    width: auto;
+    background-image: url(../img/parkour.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0vh;
+    display: block;
+}
+.header-content {
+    position: absolute;
+    top: 83vh;
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+
+}
+
+.bg-light {
+    background: rgb(255, 2, 2);
+    
+}
+
+ul.tabs{
+    margin: 0%;
+    width: 100% auto;
+    height: auto;
+    background: rgb(0, 238, 255);
+    list-style: none;
+    display: flex;
+    
+
+}
+ul.tabs li{
+    width: 55% ;
+
+}
+ul.tabs li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+
+    display: block;
+    padding: 5px 0px;
+    margin: auto;
+
+}
+.active{
+    background: rgb(105, 105, 105);
+}
+.secciones{
+    
+    margin: 5%;
+    background: rgb(102, 102, 102);
+}
+.secciones article{
+    padding: 30px;
+}
+.secciones article p{
+    text-align: justify;
+    
+}
+/*--------------imagenes-------------------*/
+img{
+    width: 100% ;
+
+    display: block;
+
+}
+
+
+/*---------------titulos.................*/
+ h1{
+    background: #fff;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0px;
+    font-size: 35px
+}
+h2{
+    width: 100%;
+    
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin-bottom: 0px;
+    font-size: 35px
+}
+h3{
+    
+    background: rgb(255, 255, 255);
+    background-position-x: center;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    margin-bottom: 0px;
+    font-size: 45px
+}
+/*---------------parrafoss.................*/
+
+.p{
+    font-size:  30px;
+}
+
+.caja5:nth-child(1) p{
+    background: #fff;
+    text-align: center;
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 35px
+}
+
+.contenido{
+    margin: 5px;
+}
+.caja2{
+    display: table-cell;
+    padding: 20px;
+    width: 70%;
+    margin: 0%;
+    
+}
+.caja5{
+    display: table-cell;
+    padding: 20px;
+    width: 10%;
+    margin: 0%;
+}
+.caja05{
+    display: table-cell;
+    padding: 20px;
+    width: 10%;
+    margin: 0%;
+}
+
+/*-----------CAJA DE COMENTARIOS----------------------*/
+
+.ctn-lbl-comentar{
+    width: 100%;
+    text-align: center;
+}
+.lbl-comentar{
+    color: rgb(65, 249, 255);
+    font-family: cursive;
+    font-size: 20px;
+    
+
+}
+/*-----------CAJA DE YOU TUBE----------------------*/
+
+.cajasY3{
+    display: table-cell;
+    padding: 20px;
+    width: 35%;
+    margin: 0%;
+}
+
+/*-----------tamaño de pagina minimo 560----------------------*/
+
+@media (max-width: 560px){
+    .header::after {
+        
+        width: 100vh;
+    }
+.header-content{
+        width: 123%;
+        margin: 9%;
+        
+    }
+}
+
+@media screen and (max-width: 560px){
+    .secciones{
+        width: 669px;
+        padding: 0%;
+        margin: 45px ;
+        height: 50%
+        
+    }
+};
+@media scrern and (max-width: 560px){
+    ul.tabs li{
+        width: none;
+        flex-grow: 1;
+        flex-basis: 0;        
+    }
+}
+@media scrern and (max-width: 560px){
+    ul.tabs {
+        height: 50%;
+    }
+    ul.tabs a{
+        padding: 20px 0px;
+        
+    }
+    ul.tabs li a .tab-text{
+        display: none;
+    }
+    .tabs-container article{
+        padding: 100px;
+    }
+}
+
