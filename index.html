@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ParkourALIEN</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    
+
+    
+
+    <!---fuentes de letras-->
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Farro: wght @ 300 & display = swap" rel = "hoja de estilo">
+
+    <!---CSS CUSTOM-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/mai.js"></script>
+    <!---videoJS.COM
+    <link href="https://vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>-->
+
+    <link rel="stylesheet" href="videoJS/video-js.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/video.min.js"></script>
+
+    <style>
+        #leermas{
+            color:rgb(255, 0, 0);
+            width: 40px;
+            background-position-x: center;
+            font-size: 20px;
+        }
+        #leermenos{
+            color:rgb(255, 0, 0);
+            width: 40px;
+            background-position-x: center;
+            font-size: 20px;
+        }
+        #leermasp2{
+            color:rgb(255, 0, 0);
+            width: 40px;
+            background-position-x: center;
+            font-size: 20px;
+        }
+        #leermenosp2{
+            color:rgb(255, 0, 0);
+            width: 40px;
+            background-position-x: center;
+            font-size: 20px;
+        }
+        #intro{
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+
+        }
+        #intro1{
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+
+        }
+        #mensaje1{
+            font-size: 25px;
+        }
+        #mensaje2{
+            font-size: 25px;
+        }
+        #mensaje3{
+            font-size: 25px;
+        }
+        #mensaje4{
+            font-size: 25px;
+        }
+        #mensaje5{
+            font-size: 25px;
+        }
+        #mensajee1{
+            font-size: 25px;
+        }
+        #mensajee2{
+            font-size: 25px;
+        }
+        #mensajee3{
+            font-size: 20px;
+        }
+        #mensajee4{
+            font-size: 20px;
+        }
+        #mensajee5{
+            font-size: 20px;
+        }
+        #prr{
+            font-size: 25px;
+            background: rgb(255, 255, 255);
+            padding: 2%;
+            color: rgb(0, 0, 0);
+        }
+        #prr1{
+            font-size: 25px;
+        }
+        
+        
+        
+    </style>
+
+
+
+</head>
+<body>
+    <div id = "fb-root" > </div> <script async diferir crossorigin = "anonymous" src = "https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0" nonce = "jIb7jpr9" > </script> 
+    <!-----header------>
+    <header class="header">
+        <div class="header-content">
+            <ul class="tabs">
+                <li><a href="#tab1"><span class="fa fa-home"></span><span class="tab-text">Inicio</span></a> </li>
+                <li><a href="#tab2"><span class="fa fa-home"></span><span class="tab-text">Atletas</span></a> </li>
+                <li><a href="#tab3"><span class="fa fa-home"></span><span class="tab-text">Eventos</span></a> </li>
+                <li><a href="#tab4"><span class="fa fa-home"></span><span class="tab-text">Contactos</span></a> </li>
+
+                    <!--<ul class="submenu">
+                        <li><a href="#">ayuda #1</a> </li>
+                        <li><a href="#">Preguntas #2</a> </li>                        
+                    </ul>!/-->
+                
+                </li>
+
+            </ul>
+
+        </div>            
+    </header> 
+<!------------------------------------------menu de la pagin a--------------------------------------------->
+    <div class="secciones">
+        <article id="tab1">
+            <div class="contenido">
+                <div class="caja2">
+                    <h1>Gran Evento</h1>
+                    <p id="prr1" class="texto">
+                        En la Republica Dominica,
+                         PARKOUR y Free Running... SIGAN Nuestras pagina para 
+                        mas información, los mejores del país en un solo escenario
+                         compitiendo por el primer lugar, en el nuevo juego 
+                        <br>(#COLLECT THE #TIME)     Las reglas y la temática de este
+                          juego serán publicaran mas adelante..!
+                        
+                    </p>
+                    <img src="img/poss.jpg" alt="">  
+                    
+                </div > 
+                <div class="caja2">
+                    <h1>Noticias</h1>
+                    <p id="prr">
+                        El evento que será presentado por  PARKOUR ALIEN en REPUBLICA DOMINICANA.
+                        Este evento será presentado en la provincia Duarte o San Francisco de Macorís, 
+                        estamos esperando respuesta de el ayuntamiento de SFM, para proceder con los 
+                        preparativos de el evento aun no tenemos respuesta de la solicitamos para tener 
+                        disponible el lugar donde será realizado este evento, que tendrá por nombre
+                         NEW GENERATION o nueva generaciòn este evento esta planificado para finales de este año 2021.
+                        Esperamos que este evento sobre PARKOUR Y FREE RUNNUNG sea uno de los mas grande, a nivel nacional en la Republica Dominica, también esperamos que este evento prenda la chispa que falta para que todos los practicante de esta disciplina tenga una motivación para aprender y practicar.
+                        Este evento tendrá lugar a tres actividades que se realizaran en un periodo de 6 a 8 horas aproximada.
+                        Se esta planificado comenzar con el evento principal que tiene por nombre “COLETC THE TIME”, esta actividad es para todos los practicante de parkour y Free Running, la temática de la competencia estan junto a las reglas en la parte de ENVETOS,
+                        detalles mas adelante, Como puedes entrara a participar al evento, como se dividirán las parejas de cada desplazamiento, aun no están disponibles, se estará publicando un poss o aviso en las paginas de PARKOUR ALIEN mas adelante para estas informaciones.
+                    </p>
+                </div> 
+                
+                <div>
+                   
+                    <p id="prr">
+                        Segunda actividad que será la actividad “De la mejor combinación de mortales”, este evento esta diseñado para las personas que no saben Parkour y Free Running.
+                        <br>Los premios de cada evento se estarán dando a conocer un mes antes de la competencia esperamos tener los recursos para dar un premio que sea de su agrado muchas gracias
+                        
+                    </p>
+                <div>
+                    <h3 font-size="50px">Canal Principar YouTube</h3>
+                    <div>
+    
+                    <iframe width="100%" height="345" src="https://www.youtube.com/embed/0uJCKfvGYtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="center" scrolling=yes></iframe>
+                </div>
+                    <div>
+                        
+                        <h3 font-size="50px">Otros Canales de YouTube de RD </h3>
+                        <div class="cajasY3">
+                                    
+                            <h2 align="center">Julio R.D</h2>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/hHjcbgKhQeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                        <div class="cajasY3">
+                                    
+                            <h2 align="center">Run SFM PK</h2>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/5XVpLi5AAL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+                        
+                            
+                </div>
+            </div>
+            <i class="fab fa-youtube"></i>
+        </article>
+<!-----------------------------------------------SEGUNDA PESTAÑA DE ATLETAS ------------------------------------->
+        <article id="tab2">
+            
+            <div class="contenido">
+                <h1>Atletas mas reconocidos en RD</h1>
+                <p id="intro" class="texto">  Algunos Atletas de los mas reconocido en Republica Dominica, no solo por el Parkour o
+                    
+                    Free Running, tan bien por sus acrobacia,
+                    destreza física y su valor a la hora de hacer cosas nuevas y 
+                    peligrosas.           
+                    
+                    
+                    Aquí podremos encontrar una breve biografía  
+                    de sus experiencia, y como entraron a este mundo de adrenalina y nuevos desafíos
+ 
+
+                </p>
+                <div class="caja5">
+
+                    <h1>Bismark </h1>
+                    <img src="img/Bismark.jpeg" alt="">
+                    
+                    <p id="p1">
+                        <i> Hola soy Bismark Montero</i>
+
+                    </p>
+                    <p id="mensaje1">
+                        <i> Hola soy Bismark Montero</i> vivo en santo Domingo este, comencé a entrenar Parkour a los 20 años,(algo tarde, aunque la filosofía de Parkour dice que cualquiera puede practicarlo por eso me sentí más tranquilo) conocí el Parkour por una película llamada B13 o Distrito 13 con el majestuoso protagonista y creador del Parkour David Belle, cuando vi la película quede facinado por lo ágil y rápido que se movía y escapaba era casi un súper héroes y buscando el detrás de cámara para ver cómo hicieron esos efectos me encontré con la gran sorpresa de que todo era real, busque a mis amigos para enseñarle la película y buscando el tráiler en Youtube me encontré con 1000les de vídeo de Parkour y nos pasamos la noche entera viendo vídeo de Parkour.
+
+                        Al terminar la noche decidimos que al otro día íbamos a entrenar eso.
+
+                        Formando este maravilloso grupo llamado Urban machines
+
+                    </p>
+
+                </div>
+                <div class="caja5">
+                    <h1>Brando</h1>
+                    <img src="img/brando.jpg" alt="">
+                    
+                    <p id="p2" >
+                        <i>hola soy Brando Duarte</i>  
+                            
+                    </p>
+                    <p id="mensaje2">
+                        hola soy Brando Duarte yo empecé a practicar a finales del 2012. Empezó como bailarín y quise entrarle mas dificultad a mi baile y comencé  a aprender acrobacias en la gimnasia en el proceso conocí a un amigo (Enrique) y me introdujo al Parkour y desde ese entonces todo cambio , bien cursi 
+                        El parkour me gusta por todo lo que te enseña y te prepara mental y físicamente. La enseñanza que nos dicen, que nuestra verdadera competencia somos nosotros mismos y los obstaculos que nos proponemos a sobrepasar
+
+
+                    </p>
+
+                </div>
+                <div class="caja5">
+                    
+                    <h1>Eliezer</h1>
+                    <img src="img/eliezer.jpg" alt="">
+                    
+                    <p id="p3">
+                       <i> Hola soy Eliezer</i>
+                    </p>
+
+                    <p id="mensaje3">
+                         Hola soy Eliezer  vivo santo domingo, comencé con las acrobacia y las disciplina a los 18, el  
+                        Parkour fue una de mis primeras disciplina luego  me pase al Free Running, por que el cuerpo me pedía mas,  luego de un tiempo  pase al tumble por que el cuerpo me pedía mas y mas asta llegar al punto donde estoy.
+                        Me gustan estas disciplinas por que me siento libre al ejecutar los movimientos me siento mas yo, al igual que el parkour y el Free running practico triking y tumbles esta son las cosas que me hacen sentir mas libre, mas yo
+                        
+                    </p>
+                    
+                </div>
+                <div class="caja5">
+                    <h1>Johan</h1>
+                    <img src="img/johan.jpeg" alt="">
+                    <p id="p4">
+                       <i> Hola Soy Joan</i>
+                    </p>
+                     
+                    <p id="mensaje4">
+                        <i>Hola Soy Joan de moca,</i>  
+                        Comence con las acrobacias a 
+                        la edad de 16 años por un amigo acróbata
+                        que me había dicho para entrenarme ,
+                        luego de hay a los dos años de práctica
+                        ya había alcanzado un buen nivel , a 
+                        nivel callejero y en ese mismo año inicie 
+                        con la gimnasia artística , dure dos años
+                        y medio en la gimnasia , logré competir 
+                        en los juegos nacional en Santo Domingo 
+                        asta que veía que eso no era para mi , 
+                        decidi dejar la gimnasia. Y practicar 
+                        más callejero . Asta el punto de llegar 
+                        a participar en recopilaciónes de videos
+                        de los mejores acróbatas de todos los 
+                        países a nivel internacional . Fue mucho
+                        trabajo pero logré alcanzar mi objetivo asta
+                        reconocerme fuera de mi país natal.
+                    </p>
+
+                </div>
+                <div class="caja5">
+                    <h1>Nelson</h1>
+                    <img src="img/nelson.jpeg" alt="">
+                    <p id="p5">
+                    <i> Hola soy Nelson Román</i>
+                    </p>
+                     
+                    <p id="mensaje5">
+                        Hola soy Nelson Román vivo en bonao, 
+                        comencé a entrenar Parkour a los 17 años, 
+                        conocí el Parkour por videos de traceurs en 
+                        Youtube, mi inicio no fue fácil ya que era 
+                        criticado por lo que hacía y y tampoco tenía
+                         ninguna tutela o alguien que me enceñara sobre 
+                         la disciplina. No fue asta 2013 que me enteré de 
+                         que habían más traceurs en mi país y tuve el
+                         honor de ir a mi primer RT(reunión de traceurs)
+                          y desde entonces no e dejado de crecer física 
+                          y mentalmente gracias a la filosofía de esta
+                           gran disciplina.
+                    </p>
+
+                </div>
+     
+            <div>
+         
+                <span id="leermas">Leer Màs</span>
+                <span id="leermenos">Leer Menos</span>
+                <script>
+                    $(document).ready(() => {
+                        $('#mensaje').hide();
+                        $('#mensaje2').hide();
+                        $('#mensaje3').hide();
+                        $('#mensaje4').hide();
+                        $('#mensaje5').hide();
+                        $('#leermenos').hide();
+                        $('#p1').hide();
+
+    
+                        $('#leermas').click(function() {
+                            $('#p1').hide();
+                            $('#p2').hide();
+                            $('#p3').hide();
+                            $('#p4').hide();
+                            $('#p5').hide();
+
+                            $('#leermas').hide();
+    
+                            $('#mensaje1').show('slow');
+                            $('#mensaje2').show('slow');
+                            $('#mensaje3').show('slow');
+                            $('#mensaje4').show('slow');
+                            $('#mensaje5').show('slow');
+                            $('#leermenos').show('slow');
+                        });
+                    });
+                </script>
+                <script>
+                    $(document).ready(() => {
+    
+    
+                        $('#leermenos').click(function() {
+                            $('#p1').show('slow');
+                            $('#p2').show('slow');
+                            $('#p3').show('slow');
+                            $('#p4').show('slow');
+                            $('#p5').show('slow');
+                            $('#leermas').show();
+    
+                            $('#mensaje1').hide('slow');
+                            $('#mensaje2').hide('slow');
+                            $('#mensaje3').hide('slow');
+                            $('#mensaje4').hide('slow');
+                            $('#mensaje5').hide('slow');
+                            $('#leermenos').hide('slow');
+                        });
+                    });
+                </script>
+                
+
+            </div>
+
+            <h1>Atletas destacados en RD 2015 asta 2021</h1>
+            <div class="contenido">
+                <div class="caja05">
+                    <h1>Rodorfo</h1>
+                    <img src="img/rodorfo.jpg" alt="">
+                    
+                        <p id="pa1">
+                         <i>Hola Soy Rodolfo Gil</i>
+                        </p>
+
+                        <p id="mensajee1">
+                            Hola Soy Rodolfo Gil Vivo En Santiago 
+                            Fui Criado En San Francisco De Macorís, Comencé 
+                            A Practicar Parkour Cuando Tenia 15 Años De Edad,  
+                            Fui Inspirado Por Barias Persona Que Siempre Boy a 
+                            Admirar Por Siempre, Porque Fueron Mis Maestros
+                            “Michael Ortega” Comencé A Conocer Más Del Parkour 
+                            Cuando Fui Avanzando En El Estadio Julián Javier 
+                            Luego mas adelante Forme Mi Equipo De Traceus 
+                            Llamando Run Sfm Pk
+                            
+                        </p>
+
+                </div>
+
+                <div class="caja05">
+                    <h1>Julio</h1>
+                    <img src="img/ju.jpeg" alt="">
+                    
+                        <p id="pa4">
+                        <i>Hola soy julio Antonio</i>
+                        </p>
+
+                        <p id="mensajee4">
+                            Hola soy julio Antonio, vivo en Valverde de 
+                            esperanza, tengo 18 años de edad, el tiempo 
+                            que tengo practicando está disciplina de el 
+                            parkour es de 3 años. Iniciando dando mis primeros
+                            pasos dentro de el parkour viendo vídeos tutorial 
+                            en YouTube, desde hay comencé una nueva rutina en 
+                            mi vida, mientras que con el tiempo todo fue cambiando 
+                            más, prácticas saltos, desplazamiento, mortales, 
+                            poco a poco me fui enamorando, sintiendo algo diferente, 
+                            fue como una nueva aventura he ilusión que no tiene final, 
+                            en toda mi vida fui creciendo tanto en la practica de 
+                            parkour como en menta, físicamente, y una gran concentración, 
+                            cada día nuevas motivación para mí, cada día que hacía parkour, 
+                            trucos, desplazamiento era como otro mundo lleno de cosas 
+                            positivas, dónde cada tranceús está conectado con la amistad  
+                            he ideas positivas que nos llevan más a ya del éxito...
+
+                            
+                            
+                        </p>
+                </div>           
+                <div class="caja05">
+                    <h1>Nelsaury</h1>
+                    <img src="img/nel.jpg" alt="">
+                    
+                        <p id="pa2">
+                        <i> Nelsaury de la cruz</i>
+                        </p>
+
+                        <p id="mensajee2">
+                            Nelsaury de la Cruz, un día vi unos 
+                            amigos haciendo mortales acrobacia en 
+                            el Liceo, desde ese día me interesa mucho
+                            así que comenzó a practicar con ayuda de
+                            un amigo, asta que me destaque como es más 
+                            influyentes de mi generación no digo ser el 
+                            mejor pero nunca me eh frisado en cualquier 
+                            junte, por qué para mí sigo siendo el mismo 
+                            novato del primer día.
+                            
+                        </p>
+
+                </div>
+                <div class="caja05">
+                    <h1>Alvin</h1>
+                    <img src="img/alvi.jpg" alt="">
+                    
+                        <p id="pa3">
+                        <i>Hola soy Alvin de jesus Garcia</i>
+                        </p>
+
+                        <p id="mensajee3">
+                            Hola soy Alvin de jesus Garcia 
+                            comencé desde muy joven, con las acrobacia 
+                            y los mortales en los años 1996 hasta el 2004 
+                            con la edad de 17, luego en el 2019 con 42 años 
+                            de edad encontré un pequeño grupo de practicante 
+                            de parkour en el estadio de SFM, con los cuales 
+                            me integre donde comencé hacer parkour y 
+                            acrobacias nuevamente
+                            
+                            
+                        </p>
+               
+                </div>
+                <div class="caja05">
+                    <h1>Firpo</h1>
+                    <img src="img/luis.jpeg" alt="">
+                    
+                        <p id="pa5">
+                        <i>Hola soy Luis Manuel Firpo Ortiz</i>
+                        </p>
+
+                        <p id="mensajee5">
+                            Hola soy Luis Manuel Firpo Ortiz 
+
+                            Edad: 19 años 
+                            Soy de: San Francisco De Macorís 
+
+                            Mi inspiración fue al ver los demás haciendo 
+                            parkour me motive hacerlo también y gracias a 
+                            Dios aprendí y aquí estoy para representar mi provincia en cualquier lugar del mundo.
+                                                        
+                            
+                        </p>
+               
+                </div>
+                <span id="leermasp2">Leer Màs</span>
+                <span id="leermenosp2">Leer Menos</span>
+                <script>
+                    $(document).ready(() => {
+                        $('#mensajee').hide();
+                        $('#mensajee2').hide();
+                        $('#mensajee3').hide();
+                        $('#mensajee4').hide();
+                        $('#mensajee5').hide();
+                        $('#leermenosp2').hide();
+                        $('#pa1').hide();
+    
+                        $('#leermasp2').click(function() {
+                            $('#pa1').hide();
+                            $('#pa2').hide();
+                            $('#pa3').hide();
+                            $('#pa4').hide();
+                            $('#pa5').hide();
+                            $('#leermasp2').hide();
+    
+                            $('#mensajee1').show('slow');
+                            $('#mensajee2').show('slow');
+                            $('#mensajee3').show('slow');
+                            $('#mensajee4').show('slow');
+                            $('#mensajee5').show('slow');
+                            $('#leermenosp2').show('slow');
+                        });
+                    });
+                </script>
+                <script>
+                    $(document).ready(() => {
+    
+    
+                        $('#leermenosp2').click(function() {
+                            $('#pa1').show();
+                            $('#pa2').show();
+                            $('#pa3').show();
+                            $('#pa4').show();
+                            $('#pa5').show();
+                            $('#leermasp2').show();
+    
+                            $('#mensajee1').hide('slow');
+                            $('#mensajee2').hide('slow');
+                            $('#mensajee3').hide('slow');
+                            $('#mensajee4').hide('slow');
+                            $('#mensajee5').hide('slow');
+                            $('#leermenosp2').hide('slow');
+                        });
+                    });
+                </script> 
+                
+            </div>
+        </article>
+<!----------------------------------------------- TERCERA PESTAÑA DE EVENTOS ------------------------------------->
+        <article id="tab3">
+            <div class="contenido">
+                <div class="caja">
+                    <h2>COLECT THE TIME</h2>
+                    <p id="prr1" class="texto">
+                        "COLECT THE TIME”  es un juego hecho para los traceur,
+                        que se basa en recolectar ESTRELLAS en un campo
+                         de obstáculos, este juego mide las habilidades
+                          tanto físicas como mentales de cada traceur.
+                           <br> Las estrellas no tienen un orden en específico,
+                            con el propósito de que cada traceur busque su 
+                            propio camino en el campo de obstáculos, ya sea
+                             fácil, difícil, rápido o despacio.
+                        Nota.. traceur es las manera que se les llama a cada
+                         persona que practica parkour o Freenruny.
+                    </p>
+                    <h2>Reglas</h2> 
+                    <p id="prr1" class="texto">
+                        <br>01-	Cada traceur tiene que recolectar al menos 5 estrellas.</br>
+                        <br>1.1-	Cada estrellas es igual a -2 segundos de tiempo. </br>
+                        <br>02- Cada traceur tiene que hacer al menos  una acrobacia.</br>
+                        <br>2.2- Cada acrobacia será tomada en cuenta y será validada por -3 segundos de tiempo.</br>
+                        <br> 3.0- Solo se permiten dos treceus en el campo de obstáculos.</br>
+                        <br>3.1. Los traceur no pueden tocarse sujetarse o acercarse a menos de 50 cm.</br>
+                        <br> 04- Los traceur tienen que utilizar ropa y calzado deportivo, previamente aprobado por los jueces del evento. </br>
+                        <br>05- No se permite mantener objetos u otro objeto en las manos, para evitar así posibles inconvenientes al evento.</br>
+                        <br>06- Cada traceur tiene que esperar a que el marcador comience su conteo para iniciar con el recorrido. </br>
+                        <br>07- Ninguna otra persona puede ayudar o intervenir dentro del campo de obstáculos,
+                         a menos que haya una mala caída o lesión. (En este caso, solo personas autorizadas como paramédicos presentes).</br>                   
+                         <br> 08- Cada traceur tiene que tener un nivel de experiencia para poder participar en el
+                         evento, si usted es aprendiz no puede entrar a competir.</br>
+                         <br>09- Cada traceur tiene que tener un papel firmado que valide que está consciente de 
+                        que en esta competencia puede sufrir cualquier daño y no somos responsables de lo que ocurra dentro del evento. </br>
+                        <br> 11- Cada traceur tiene que ser mayor de edad o tener un papel firmado por los padres o un tutor.</br>
+                     
+                    </p>
+                         <h2>Equipo que se utilizara</h2>
+
+                         <p id="prr1" class="texto">Todos los participante llevaran un 
+                             equipo que se utilizara en la competencia,
+                              para cargar las estrellas este esquipo esta 
+                              echo y diseñado para que a cada participante, 
+                              no sea una molestia o una carga que sea fácil, 
+                              ligero, cómodo y no intervenga con los movimientos,
+                               ni tenga ningún riesgo para los participante 
+                         </p>
+                         <h2>¡ Descripción de el equipo</h2>
+                         <p id="prr1" class="texto">
+                             Este equipo será tipo correa se sostendrá de la 
+                             cintura bajara asta casi la rodilla donde tendrá otro 
+                             agarre circular el la parte que baja, de extremo a 
+                             extremo tendrá una placa metálica muy sensible  de una 
+                             mínima densidad para a si evitar inconvenientes.
+                         </p>
+                         <h2>¡ Descripción de como será las estrellas</h2>
+                         <p id="prr1" class="texto">
+                             Las estrellas contendrán un pequeño imán de
+                             neodineo, para que tengan un fácil contacto
+                             con el metal de el equipo que llevaran los 
+                             participante, esto provocara un contacto magnético
+                             entre el imán y la placa metálica que permitirá que
+                             las  estrellas estén pegadas en el equipo de cada 
+                             traceus al tomar las estrellas tendrán una forma 
+                             menos complicada de llevar las estrellas asta el 
+                             final de el recorrido, por la pista de parkour.
+
+                         </p>
+                         <div>
+                             <p id="prr">
+                                Dejen sus dudas en la caja de comentarios
+                                estaremos respondiendo lo mas pronto posible 
+                                gracias….
+                             </p>
+                         </div>
+                         
+
+
+<!----------------------------------------------- caja de comentarios  ------------------------------------->
+                         <div class="ctn-lbl-comentar"> <label class="lbl-comentar">comentarios</label> </div>
+                         <div class = "fb-comments" data-href = "https://developers.facebook.com/docs/plugins/comments#configurator" data-width = "100%" data-numposts = "1" > 
+                         </div> 
+                </div>
+            </div>
+        </article>
+<!----------------------------------------------- CIARTA PESTAÑA CONTACTO ------------------------------------->
+        <article id="tab4">
+            <div class="contenido">
+                <div class="caja">
+                    <H1>aun no disponible</H1>
+
+                </div>
+            </div>
+        </article>
+    </div>
+</body>
+</htlml> 
